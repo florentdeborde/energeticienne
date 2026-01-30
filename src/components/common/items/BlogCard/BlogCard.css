@@ -1,0 +1,76 @@
+.blog-card {
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid var(--sixth-grey-color);
+    background-color: var(--primary-white-color);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 400px; /* Reduces the width to make the card more compact */
+    margin: 0rem; /* Adds spacing between the cards */
+}
+
+.blog-card:hover {
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.blog-card-image {
+    width: 100%;
+    height: 10rem; /* Reduces the image height for a more compact card */
+    object-fit: cover;
+}
+
+.blog-card-content {
+    padding: 0.75rem; /* Reduces padding to make the card more compact */
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Aligns text to the left */
+    flex-grow: 1; /* This ensures that the space is distributed properly */
+}
+
+.blog-card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--tercery-grey-color);
+    text-decoration: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limits the title to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Shows '...' at the end if the text overflows */
+    text-align: left; /* Ensures title is aligned to the left */
+}
+
+.blog-card-description {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--primary-grey-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits the description to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Shows '...' at the end if the text overflows */
+    text-align: left; /* Ensures description is aligned to the left */
+}
+
+.blog-card-link {
+    display: block;
+    text-decoration: none;
+}
+
+.blog-card-link:hover {
+    text-decoration: none;
+}
+
+.blog-card-date {
+    font-size: 0.75rem; /* Reduces the date font size for compactness */
+    color: var(--secondary-grey-color);
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    text-align: left; /* Ensures the date is aligned to the left */
+}

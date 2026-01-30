@@ -1,0 +1,171 @@
+{
+    "menu": {
+      "domaines-de-soins": "Areas of Care",
+      "qui-suis-je": "About Me",
+      "seance": "Session Details",
+      "votre-seance": "Schedule Your Session",
+      "avis": "Reviews",
+      "mentions-legales": "Legal Notice"
+    },
+    "pages": {
+      "home": {
+        "title": "",
+        "element": "Home",
+        "logo": true,
+        "banner": {
+          "title": "Isabelle DEBORDE – Energy Therapist",
+          "subtitle": "I have learned to sense energetic imbalances in the body and organs through my hands and to restore their balance."
+        },
+        "featureSection": {
+          "title": "Harmonize Your Energy",
+          "button": "",
+          "items": [
+            {
+              "subtitle": "",
+              "paragraphs": [
+                "I have learned to sense energetic imbalances in the body and organs through my hands and to restore their balance using various techniques.",
+                "I perform energetic rebalancing work on your organs and body.",
+                "This allows me to support various situations related to your well-being, managing emotions, and achieving your personal projects."
+              ]
+            }
+          ]
+        },
+        "cardSection": {
+          "title": "I can help you:",
+          "target": "domaines-de-soins",
+          "items": [
+            { "text": "Feel good", "color": "#9ACDFF" },
+            { "text": "Regain your energy", "color": "#76D7C4" },
+            { "text": "Soothe painful emotions", "color": "#9ACDFF" },
+            { "text": "Release stress and anxieties", "color": "#FFAAA5" },
+            { "text": "Release anger", "color": "#9ACDFF" },
+            { "text": "Sleep peacefully", "color": "#76D7C4" },
+            { "text": "Achieve your goals", "color": "#76D7C4" },
+            { "text": "Relieve chronic pain", "color": "#9ACDFF" }
+          ]
+        },
+        "featureSectionWia": {
+          "title": "About Me",
+          "target": "qui-suis-je",
+          "button": "",
+          "items": [
+            {
+              "subtitle": "",
+              "paragraphs": [
+                "For the past 7 years, I have trained in energy medicine through a 40-day program offered by François and Sylvie LAROCHE in Serris (77). I have studied traditional Chinese, Balinese, Tibetan, and Indian medical practices and gained extensive hands-on experience. I therefore have a range of solutions to identify your needs and respond effectively.",
+                "I regularly deepen my knowledge and stay in contact with my teachers and colleagues.",
+                "I am convinced that it is the patient who heals with the support of the therapist."
+              ]
+            }
+          ]
+        },
+        "featureSectionSeance": {
+          "title": "Session Details",
+          "target": "seance",
+          "button": "",
+          "items": [
+            {
+              "subtitle": "",
+              "paragraphs": [
+                "I offer 2 types of sessions:",
+                "A session to explore and transform emotions or chronic pain. It includes an energetic diagnosis of the body and necessary rebalancing with adapted techniques. (60 min)",
+                "A session to soothe painful emotions in case of the loss of a loved one (30 min)"
+              ]
+            }
+          ]
+        },
+        "featureSectionOrganiserSeance": {
+          "title": "Schedule Your Session",
+          "target": "votre-seance",
+          "button": "",
+          "items": [
+            {
+              "subtitle": "",
+              "paragraphs": [
+                "Sessions are by appointment. Please contact me by phone at +33 7 66 46 14 82",
+                "Session rates (not reimbursed by insurance):\n- 60 minutes: 60€\n- 30 minutes: 30€",
+                "My office is located at 12 Place du Gén. de Gaulle, La Ferté Macé, Orne, France. Several parking options are nearby."
+              ]
+            }
+          ]
+        },
+        "featureSectionAvis": {
+          "title": "Reviews",
+          "target": "avis"
+        },
+        "googleReviews": {
+            "pUnavailable": "Google reviews are currently unavailable. You can view them directly on Google Maps."
+        }
+      },
+      "maintenance": {
+        "title": "The site is under maintenance",
+        "text": "We are making some adjustments to improve your experience. Thank you for your understanding and see you soon!"
+      },
+      "legalInformation": {
+        "featureSection": {
+          "title": "Terms of Use",
+          "button": "",
+          "items": [
+            {
+              "subtitle": "",
+              "paragraphs": [
+                "isabelle-deborde-energeticienne.fr"
+              ]
+            },
+            {
+              "subtitle": "Article 1: Purpose",
+              "paragraphs": [
+                "These Terms of Use legally govern the use of the services of the site isabelle-deborde-energeticienne.fr (hereinafter referred to as 'the site')."
+              ]
+            },
+            {
+              "subtitle": "Article 2: Legal Notice",
+              "paragraphs": [
+                "The site is published by Ms. Isabelle Deborde, registered with RCS under Siret number: 91422635200013, with its registered office at 12 Place de Gaulle, 61600 La Ferté-Macé, France.",
+                "The site is hosted by OVH, located at 2 rue Kellermann, 59100 Roubaix, France."
+              ]
+            },
+            {
+              "subtitle": "Article 3: Intellectual Property",
+              "paragraphs": [
+                "The trademarks, logos, and content of the site (graphics, texts…) are protected under intellectual property law and copyright.",
+                "Reproduction or copying of the content by the user requires prior authorization from the site. Any commercial or advertising use is prohibited."
+              ]
+            },
+            {
+              "subtitle": "Article 4: Liability",
+              "paragraphs": [
+                "Although the information on the site is considered reliable, the site does not guarantee its accuracy.",
+                "Information on the site is provided for informational purposes only and has no contractual value. Despite regular updates, the site's responsibility cannot be engaged in case of changes in administrative or legal provisions after publication. The same applies to the use and interpretation of information on the platform.",
+                "The site is not responsible for any viruses that may infect the user's computer after accessing or using the site.",
+                "The site cannot be held responsible in case of force majeure or unforeseeable and insurmountable third-party events."
+              ]
+            },
+            {
+              "subtitle": "Article 5: Hyperlinks",
+              "paragraphs": [
+                "The site may contain hyperlinks. By clicking on them, the user will leave the platform. The platform has no control and cannot be held responsible for the content of the linked pages."
+              ]
+            },
+            {
+              "subtitle": "Article 6: Cookies",
+              "paragraphs": [
+                "During visits to the site, cookies may be automatically installed on the user's browser.",
+                "Cookies are small files temporarily stored on the user's hard drive. They are necessary for accessibility and navigation on the site. Cookies do not contain personal information and cannot be used to identify a person.",
+                "The information stored in cookies is used to improve navigation performance on the site.",
+                "By browsing the site, the user accepts cookies. Cookies can be disabled via browser settings."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "footer": {
+      "title": "Content",
+      "address": "12 Pl. du Gén de Gaulle, 61600 La Ferté Macé",
+      "phone": "+33766461482",
+      "email": "",
+      "domain": "© isabelle-deborde-energeticienne.fr"
+    }
+  }
+  

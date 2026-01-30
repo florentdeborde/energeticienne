@@ -1,0 +1,169 @@
+{  "menu": {
+    "domaines-de-soins": "Domaines de soins",
+    "qui-suis-je": "Qui suis-je ?",
+    "seance": "Modalité des séances",
+    "votre-seance": "Organiser votre séance",
+    "avis": "Avis",
+    "mentions-legales": "Mentions légales"
+  },
+    "pages": {
+        "home": {
+            "title": "",
+            "element": "Home",
+            "logo": true,
+            "banner": {
+                "title": "Isabelle DEBORDE Énergéticienne",
+                "subtitle": "J’ai appris à ressentir dans mes doigts les déséquilibres énergétiques des corps et des organes et à rétablir leurs équilibres."
+            },
+            "featureSection": {
+                "title": "Harmonisez votre énergie",
+                "button": "",
+                "items": [
+                    {
+                        "subtitle": "",
+                        "paragraphs": [
+                            "J’ai appris à ressentir dans mes doigts les déséquilibres énergétiques des corps et des organes et à rétablir leurs équilibres par différentes techniques.",
+                            "Je réalise ainsi un travail de rééquilibrage énergétique de vos organes et de votre corps.",
+                            "Cela me permet d’accompagner différentes situations en lien avec votre bien être, la gestion de vos émotions ou la réalisation de vos projets."
+                        ]
+                    }
+                ]
+            },
+            "cardSection": {
+                "title": "Je peux vous aider à :",
+                "target":"domaines-de-soins",
+                "items": [
+                    { "text": "Vous sentir bien", "color": "#9ACDFF" },
+                    { "text": "Retrouver votre énergie", "color": "#76D7C4" },
+                    { "text": "Apaiser vos émotions douloureuses", "color": "#9ACDFF" },
+                    { "text": "Vous libérez de vos stress et angoisses", "color": "#FFAAA5" },
+                    { "text": "Vous libérez de vos colères", "color": "#9ACDFF" },
+                    { "text": "Dormir sereinement", "color": "#76D7C4" },
+                    { "text": "Réaliser vos projets", "color": "#76D7C4" },
+                    { "text": "Apaiser vos douleurs chroniques", "color": "#9ACDFF" }
+                  ]
+            },
+            "featureSectionWia": {
+                "title": "Qui suis-je ?",
+                "target":"qui-suis-je",
+                "button": "",
+                "items": [
+                    {
+                        "subtitle": "",
+                        "paragraphs": [
+                            "Depuis 7 ans, je me forme en médecine énergétique en suivant un cursus de 40 jours proposé par François et Sylvie LAROCHE à Serris (77). J’ai pu apprendre des pratiques de médecines traditionnelles chinoises, balinaises, tibétaines, indiennes… et beaucoup pratiquer. Je dispose ainsi de différentes solutions pour cerner vos besoins et pour y répondre au mieux.",
+                            "J’approfondis régulièrement mes connaissances et je reste en contact avec mes enseignants et mes collègues de formation.",
+                            "Je suis convaincue que c’est le patient qui guérit en se faisant aider par le thérapeute."
+                        ]
+                    }
+                ]
+            },
+            "featureSectionSeance": {
+                "title": "Modalité des séances",
+                "target":"seance",
+                "button": "",
+                "items": [
+                    {
+                        "subtitle": "",
+                        "paragraphs": [
+                            "Je propose 2 types de séances:",
+                            "Une séance pour approfondir et transformer les émotions ou les douleurs chroniques. Elle comprend un diagnostic énergétique du corps et les rééquilibrages nécessaires avec les techniques adaptées. (durée 60mn)",
+                            "Une séance pour soulager les émotions douloureuses dans le cas de la perte d'un être cher (durée 30mn)"
+                        ]
+                    }
+                ]
+            },
+            "featureSectionOrganiserSeance": {
+                "title": "Organiser votre séance",
+                "target":"votre-seance",
+                "button": "",
+                "items": [
+                    {
+                        "subtitle": "",
+                        "paragraphs": [
+                            "Je reçois sur rendez-vous. Pour cela, merci de me contacter par téléphone au 07.66.46.14.82",
+                            "Tarifs des séances (non remboursées par les mutuelles) :\n- 60 minutes : 60 €\n- 30 minutes : 30 €",
+                            "Mon cabinet est situé 12 Place du Gén. de Gaulle à La Ferté Macé dans l’Orne. Plusieurs parkings se trouvent à proximité."
+                        ]
+                    }
+                ]
+            },
+            "featureSectionAvis": {
+                "title": "Avis",
+                "target":"avis"
+            },
+            "googleReviews":{
+                "pUnavailable": "Les avis Google ne sont pas disponibles pour le moment. Vous pouvez les consulter directement sur Google Maps."
+            }
+        },
+        "maintenance": {
+            "title": "Le site est en maintenance",
+            "text": "Nous effectuons quelques ajustements pour améliorer votre expérience. Merci de votre compréhension et à très vite !"
+        },
+        "legalInformation": {
+            "featureSection": {
+                "title": "Conditions générales d’utilisation du site",
+                "button": "",
+                "items": [
+                    {
+                        "subtitle": "",
+                        "paragraphs": [
+                            "isabelle-deborde-energeticienne.fr"
+                        ]
+                    },
+                    {
+                        "subtitle": "Article 1 : Objet",
+                        "paragraphs": [
+                            "Les présentes CGU ou Conditions Générales d’Utilisation encadrent juridiquement l’utilisation des services du site isabelle-deborde-energeticienne.fr (ci-après dénommé « le site »)."
+                        ]
+                    },
+                    {
+                        "subtitle": "Article 2 : Mentions légales",
+                        "paragraphs": [
+                            "L’édition du site isabelle-deborde-energeticienne.fr est assurée par madame Isabelle Deborde, inscrite au RCS sous le numéro de Siret : 91422635200013, dont le siège social est localisé au 12 place De Gaulle, 61600 La Ferté-Macé, France.",
+                            "L’hébergeur du site isabelle-deborde-energeticienne.fr est la société OVH, sise 2 rue Kellermann, 59100 Roubaix, France."
+                        ]
+                    },
+                    {
+                        "subtitle": "Article 3 : Propriété intellectuelle",
+                        "paragraphs": [
+                            "Les marques, logos ainsi que les contenus du site isabelle-deborde-energeticienne.fr (illustrations graphiques, textes…) sont protégés par le Code de la propriété intellectuelle et par le droit d’auteur.",
+                            "La reproduction et la copie des contenus par l’Utilisateur requièrent une autorisation préalable du site. Dans ce cas, toute utilisation à des usages commerciaux ou à des fins publicitaires est proscrite."
+                        ]
+                    },
+                    {
+                        "subtitle": "Article 4 : Responsabilité",
+                        "paragraphs": [
+                            "Bien que les informations publiées sur le site soient réputées fiables, le site se réserve la faculté d’une non-garantie de la fiabilité des sources.",
+                            "Les informations diffusées sur le site isabelle-deborde-energeticienne.fr sont présentées à titre purement informatif et sont sans valeur contractuelle. En dépit des mises à jour régulières, la responsabilité du site ne peut être engagée en cas de modification des dispositions administratives et juridiques apparaissant après la publication. Il en est de même pour l’utilisation et l’interprétation des informations communiquées sur la plateforme.",
+                            "Le site décline toute responsabilité concernant les éventuels virus pouvant infecter le matériel informatique de l’Utilisateur après l’utilisation ou l’accès à ce site.",
+                            "Le site ne peut être tenu pour responsable en cas de force majeure ou du fait imprévisible et insurmontable d’un tiers."
+                        ]
+                    },
+                    {
+                        "subtitle": "Article 5 : Liens hypertextes",
+                        "paragraphs": [
+                            "Le site peut être constitué de liens hypertextes. En cliquant sur ces derniers, l’Utilisateur sortira de la plateforme. Cette dernière n’a pas de contrôle et ne peut pas être tenue responsable du contenu des pages web relatives à ces liens."
+                        ]
+                    },
+                    {
+                        "subtitle": "Article 6 : Cookies",
+                        "paragraphs": [
+                            "Lors des visites sur le site, l’installation automatique d’un cookie sur le logiciel de navigation de l’Utilisateur peut survenir.",
+                            "Les cookies correspondent à de petits fichiers déposés temporairement sur le disque dur de l’ordinateur de l’Utilisateur. Ces cookies sont nécessaires pour assurer l’accessibilité et la navigation sur le site. Ces fichiers ne comportent pas d’informations personnelles et ne peuvent pas être utilisés pour l’identification d’une personne.",
+                            "L’information présente dans les cookies est utilisée pour améliorer les performances de navigation sur le site isabelle-deborde-energeticienne.fr.",
+                            "En naviguant sur le site, l’Utilisateur accepte les cookies. Leur désactivation peut s’effectuer via les paramètres du logiciel de navigation."
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "footer": {
+        "title": "Contenu",
+        "address": "12 Pl. du Gén de Gaulle, 61600, La Ferté Macé",
+        "phone": "+33766461482",
+        "email": "",
+        "domain": "© isabelle-deborde-energeticienne.fr "
+    }
+}

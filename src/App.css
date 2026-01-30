@@ -1,0 +1,94 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --logo-color: #8D9D7A;
+
+  --primary-blue-color: #007bff;
+  --secondary-blue-color: #0056b3;
+  --third-blue-color: rgb(0, 123, 255, 0.2); /* primary-blue-color + 0.25 opacity */
+
+  --primary-red-color: #dc3545;
+  --secondary-red-color: #c82333;
+  --light-red-color: #ffe6e6;
+
+  --primary-grey-color: #6c757d;
+  --secondary-grey-color: #5a6268;
+  --tercery-grey-color: #333;
+  --fourth-grey-color: #555;
+  --fifth-grey-color: #fff;
+  --sixth-grey-color: #ccc;
+
+  --primary-green-color: #4CAF50;
+  --secondary-green-color: #388E3C;
+
+  --primary-white-color: white;
+  --secondary-white-color: #f5f5f5;
+  --tercery-white-color: #f9f9f9;
+
+  --primary-black-color: black;
+
+  --primary-orange-color:#ffc107;
+
+  --scroll-desktop-margin-top:60px;
+  --scroll-mobile-margin-top:100px;
+}
+
+/* App container */
+.app-container {
+  background-color: var(--tercery-white-color);
+}
+
+.desktop {
+  display: block;
+}
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+}
+
+/* Main Content */
+.main-content {
+  padding-top: 90px;
+  text-align: center;
+  background-color: var(--tercery-white-color);
+}
+
+.content-h1 {
+  color: var(--fourth-grey-color);
+  margin: 16px;
+}
+
+.content-h1:hover {
+  color: var(--logo-color);
+}
+
+.content-h2 {
+  color: var(--fourth-grey-color);
+  margin: 8px;
+}
+
+.content-h2-logo-color {
+  color: var(--logo-color);
+  margin: 8px;
+}
+
+.generic-separator {
+  width: 100%;
+  height: 1px;
+  background-color: var(--logo-color);
+}

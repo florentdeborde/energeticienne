@@ -1,0 +1,33 @@
+.blog-section {
+    padding: 40px 24px;
+    background-color: var(--tercery-white-color);
+  }
+  
+  .blog-section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--tercery-grey-color);
+    margin-bottom: 2rem;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+  
+  @media (min-width: 640px) {
+    .blog-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .blog-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }

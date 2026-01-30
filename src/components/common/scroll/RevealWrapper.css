@@ -1,0 +1,40 @@
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition-property: opacity, transform;
+    transition-timing-function: ease-out;
+    will-change: opacity, transform;
+  }
+  
+  /* General visible state */
+  .reveal.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  
+  /* Direction modifiers */
+  .reveal.up {
+    transform: translateY(40px);
+  }
+  
+  .reveal.down {
+    transform: translateY(-40px);
+  }
+  
+  .reveal.left {
+    transform: translateX(40px);
+  }
+  
+  .reveal.right {
+    transform: translateX(-40px);
+  }
+  
+  /* Visible states */
+  .reveal.visible.up,
+  .reveal.visible.down,
+  .reveal.visible.left,
+  .reveal.visible.right {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  
