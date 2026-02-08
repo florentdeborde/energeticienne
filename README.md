@@ -1,23 +1,23 @@
 # 🌿 Isabelle DEBORDE Énergéticienne
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![React: 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![Vite: 7.3.1](https://img.shields.io/badge/Vite-7.3.1-646CFF?logo=vite&logoColor=white)
+
 A modern single-page React website for a professional energy therapist.  
 This project is designed for easy reuse — ideal for cloning and adapting to similar websites.
 
----
 ## 📑 Table of Contents
 
-- [🚀 Installation](#-installation)
-- [⚙️ Project Structure](#️-project-structure)
+- [💻 Installation](#-installation)
+- [📂 Project Structure](#️-project-structure)
 - [🪄 Customization Guide](#-customization-guide-for-cloning-or-adapting)
-- [🌍 Sitemap](#-sitemap)
 - [🚢 Deployment](#-deployment)
 - [🧱 Tech Stack](#-tech-stack)
-- [👤 Author](#-author)
+- [🗺️ Roadmap & Future Evolutions](#-roadmap--future-evolutions)
 - [📜 License](#-license)
 
----
-
-## 🚀 Installation
+## 💻 Installation
 
 1. **Clone the repository:**
    ```bash
@@ -30,13 +30,11 @@ This project is designed for easy reuse — ideal for cloning and adapting to si
    ```
 3. **Run application:**
    ```bash
-   npm run start
+   npm run dev
    ```
-The site will be available at http://localhost:3000
+The site will be available at http://localhost:5173
 
----
-
-## ⚙️ Project Structure
+## 📂 Project Structure
 
 | Folder / File      | Description                               |
 | ------------------ | ----------------------------------------- |
@@ -48,8 +46,6 @@ The site will be available at http://localhost:3000
 | `/public/`         | Static assets (sitemap, favicon, images)  |
 
 The `menu.js` file defines all navigation items — including internal section anchors (#target) and standalone pages.
-
----
 
 ## 🪄 Customization Guide (for cloning or adapting)
 When duplicating this project for another practitioner or website, you’ll mainly need to update:
@@ -69,38 +65,18 @@ When duplicating this project for another practitioner or website, you’ll main
 | `/README.md`                                | Update project name                                                |
 | `/vercel.json`                              | Configure caching headers for JS/CSS/images (only if using Vercel) |
 
----
-
-## 🌍 Sitemap
-The sitemap file (/public/sitemap.xml) lists all public pages and internal sections for SEO indexing.  
-Each <url> entry corresponds to a route or an internal anchor (e.g. /#qui-suis-je).
-
----
-
 ## 🚢 Deployment
 This project is optimized for static deployment.  
 You can preview or host it using Vercel, Netlify, or any static hosting provider.  
 Some environment variables may be implemented and are checked through the `parameters.js` configuration file.
 
----
-
 ## 🧱 Tech Stack
 - **React 19** (`react`, `react-dom`) — Core framework
 - **React Router 7** (`react-router-dom`) — Routing
-- **Create React App** (`react-scripts`) — Project scaffolding & build tooling
+- **Vite 7** — Next-generation frontend build tool & dev server
 - **Material UI v6** — UI components & styling
 - **i18next** — Internationalization
-- **TypeScript 4.9.5** (`typescript`) — Optional typing support
-- **Web Vitals** (`web-vitals`) — Performance metrics
-- SEO-friendly static routing and smooth scrolling
-
----
-
-## 👤 Author
-GitHub: [https://github.com/florentdeborde](https://github.com/florentdeborde)  
-Website: [https://www.isabelle-deborde-energeticienne.fr](https://www.isabelle-deborde-energeticienne.fr)
-
----
+- **Lucide React** — Icon library
 
 ## 🗺️ Roadmap & Future Evolutions
 To make this project even more robust, the following improvements are planned:
@@ -108,9 +84,5 @@ To make this project even more robust, the following improvements are planned:
 - **🧪 Automated Testing**: Implement E2E and integration tests using Playwright or Cypress to ensure the menu logic and scroll behavior are always stable.
 - **📘 TypeScript Migration**: Full conversion of the project's logic (especially the menu calculation and configuration layers) to TypeScript for better type safety and developer experience.
 
----
-
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
