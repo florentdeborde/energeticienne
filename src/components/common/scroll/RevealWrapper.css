@@ -4,6 +4,7 @@
     transition-property: opacity, transform;
     transition-timing-function: ease-out;
     will-change: opacity, transform;
+    width: 100%;
   }
   
   /* General visible state */

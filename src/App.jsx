@@ -14,6 +14,7 @@ import { ScrollToTopOrElement } from "./components/common/scroll/ScrollToTopOrEl
 
 import Home from "./pages/Home";
 import LegalInformation from "./pages/LegalInformation";
+import Press from "./pages/Press";
 
 const Maintenance = ({ t }) => {
   return (
@@ -52,6 +53,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home t={t} />} />
           <Route path="/mentions-legales" element={<LegalInformation t={t} />} />
+          <Route path="/la-presse-en-parle" element={<Press t={t} />} />
         </Routes>
       </main>
       <Footer t={t} menu={footerFlattenMenu} logoSrc={parameters.globalLogo} iframeSrc={parameters.globalIframeSrc} />

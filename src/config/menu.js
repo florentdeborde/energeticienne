@@ -43,6 +43,13 @@ const menu = [
     showInFooter: false,
     subMenu: []
   },
+  {
+    id: "presse",
+    path: "/la-presse-en-parle",
+    showInHeader: true,
+    showInFooter: true,
+    subMenu: []
+  },
 /* 
   {
     id: "services",

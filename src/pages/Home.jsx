@@ -3,6 +3,7 @@ import FeatureCarouselSection from '../components/common/sections/Feature/Featur
 import Banner from '../components/common/sections/Banner/Banner';
 import CardSection from '../components/common/sections/Card/CardSection';
 import GoogleReviews from '../components/GoogleReviews/GoogleReviews';
+import Section from '../components/common/sections/Section/Section';
 import RevealWrapper from '../components/common/scroll/RevealWrapper';
 import parameters from '../config/parameters';
 
@@ -80,17 +81,16 @@ const Home = ({t}) => {
         </RevealWrapper>
 
         <RevealWrapper direction="up" delay={0.2}>
-          <FeatureSection
+          <Section
             id={featureSectionAvis.target}
             title={featureSectionAvis.title}
-            contentWithTitleOnly={
-              <GoogleReviews
+          >
+            <GoogleReviews
               src="https://elfsightcdn.com/platform.js"
               appClass={parameters.globalElfsightAppClass}
               pUnavailable={googleReviews.pUnavailable}
             />
-            }
-          />
+          </Section>
         </RevealWrapper>
 
       </div>

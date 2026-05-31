@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './FeatureSection.css';
 
-const FeatureSection = ({ id, title, items, buttonText, buttonLink, buttonTarget, image, imagePosition = 'right', imageSize = 'normal', enableLightbox = false, useAccordion = false, contentWithTitleOnly = null }) => {
+const FeatureSection = ({ id, title, items, buttonText, buttonLink, buttonTarget, image, imagePosition = 'right', imageSize = 'normal', enableLightbox = false, useAccordion = false }) => {
   const hasImage = !!image;
   const isImageLeft = imagePosition === 'left';
   const [openIndexes, setOpenIndexes] = useState([]);
@@ -12,25 +12,6 @@ const FeatureSection = ({ id, title, items, buttonText, buttonLink, buttonTarget
     if (!useAccordion) return;
     setOpenIndexes((prev) => prev.includes(index) ? prev.filter(i => i !== index) : [...prev, index]);
   };
-
-  if (contentWithTitleOnly) {
-    return (
-      <section id={id} className="feature-section">
-        <div className="feature-layout">
-          <div className="feature-content">
-            {title && (
-              <div className="feature-title-wrapper">
-                <h2 className="section-title">{title}</h2>
-              </div>
-            )}
-            <div className="feature-custom-content">
-              {contentWithTitleOnly}
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
 
   return (
     <>
@@ -68,9 +49,15 @@ const FeatureSection = ({ id, title, items, buttonText, buttonLink, buttonTarget
               })}
             </div>
 
-            {buttonText && 
+            {buttonText && buttonLink && 
               <div className="feature-footer" style={{ marginTop: "3.75rem" }}>
-                <Link to={buttonTarget ? `${buttonLink}#${buttonTarget}` : buttonLink} className="feature-button">{buttonText}</Link>
+                {buttonLink.startsWith('http') || buttonLink.startsWith('//') ? (
+                  <a href={buttonLink} className="feature-button" target="_blank" rel="noopener noreferrer">
+                    {buttonText}
+                  </a>
+                ) : (
+                  <Link to={buttonTarget ? `${buttonLink}#${buttonTarget}` : buttonLink} className="feature-button">{buttonText}</Link>
+                )}
               </div>
             }
           </div>

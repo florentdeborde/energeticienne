@@ -14,6 +14,7 @@ const BlogSection = ({blogPosts, handlePostClick}) => {
             title={post.title}
             description={post.description}
             link={post.link}
+            source={post.source}
             handlePostClick={handlePostClick}
           />
         ))}

@@ -5,7 +5,8 @@
       "seance": "Session Details",
       "votre-seance": "Schedule Your Session",
       "avis": "Reviews",
-      "mentions-legales": "Legal Notice"
+      "mentions-legales": "Legal Notice",
+      "presse": "In the Press"
     },
     "pages": {
       "home": {
@@ -158,8 +159,25 @@
             }
           ]
         }
-      }
-    },
+      },
+      "press": {
+        "title": "In the Press",
+        "subtitle": "Find press articles and news about my activity as an energy therapist.",
+        "readMore": "Read original article",
+        "articles": [
+            {
+                "title": "Isabelle Deborde has specialized in energy treatments",
+                "paragraphs": [
+                    "Based in La Ferté-Macé (Orne) since 2023, energy practitioner Isabelle Deborde relieves physical ailments by healing painful emotions."
+                ],
+                "date": "2026-05-01",
+                "source": "Le Publicateur Libre",
+                "image": "https://static.actu.fr/uploads/2026/04/1d017dea0ee9631117dea0ee905117v-960x640.jpg",
+                "link": "https://actu.fr/normandie/la-ferte-mace_61168/isabelle-deborde-sest-specialisee-dans-les-soins-energetiques_64212644.html"
+            }
+        ]
+    }
+  },
     "footer": {
       "title": "Content",
       "address": "12 Pl. du Gén de Gaulle, 61600 La Ferté Macé",
