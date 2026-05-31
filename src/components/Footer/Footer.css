@@ -145,3 +145,33 @@
     margin-top: 20px;
   }
 }
+
+/* Press badge in footer */
+.footer-press-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--logo-color);
+  background-color: color-mix(in srgb, var(--logo-color) 8%, transparent);
+  border: 1.5px solid color-mix(in srgb, var(--logo-color) 25%, transparent);
+  border-radius: 999px;
+  padding: 4px 12px 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+  transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.footer-press-link:hover {
+  background-color: color-mix(in srgb, var(--logo-color) 18%, transparent);
+  border-color: var(--logo-color);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--logo-color) 20%, transparent);
+  cursor: pointer;
+}
+
+.footer-press-icon {
+  font-size: 17px !important;
+  flex-shrink: 0;
+}

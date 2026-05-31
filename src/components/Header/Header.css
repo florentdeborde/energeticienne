@@ -323,3 +323,43 @@
 .more-button:hover {
   color: var(--fourth-grey-color);
 }
+
+/* Press icon link */
+.press-icon-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--logo-color);
+  background-color: color-mix(in srgb, var(--logo-color) 8%, transparent);
+  border: 1.5px solid color-mix(in srgb, var(--logo-color) 25%, transparent);
+  border-radius: 999px;
+  padding: 5px 13px 5px 9px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.press-icon-link:hover {
+  background-color: color-mix(in srgb, var(--logo-color) 18%, transparent);
+  border-color: var(--logo-color);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--logo-color) 20%, transparent);
+}
+
+.press-icon {
+  font-size: 18px !important;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .press-icon-link {
+    padding: 6px;
+    border-radius: 50%;
+  }
+
+  .press-icon-label {
+    display: none;
+  }
+}

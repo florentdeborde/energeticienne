@@ -1,6 +1,7 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import NewspaperIcon from '@mui/icons-material/Newspaper';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { handleLogoNavigation } from '../../utils/navigationUtils';
@@ -74,6 +75,11 @@ const Header = ({ menu, overflowMenu, flattenMenu, t, logoId = "home", logoSrc, 
           />
         )}
 
+        {/* Press icon — always visible */}
+        <Link to="/la-presse-en-parle" className="press-icon-link" title={t('menu.presse')}>
+          <NewspaperIcon className="press-icon" />
+          <span className="press-icon-label">{t('menu.presse')}</span>
+        </Link>
 
         {/* Mobile menu */}
         {isMobile && (

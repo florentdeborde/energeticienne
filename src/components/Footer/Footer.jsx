@@ -1,6 +1,7 @@
 import './Footer.css';
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { handleLogoNavigation } from "../../utils/navigationUtils";
+import NewspaperIcon from '@mui/icons-material/Newspaper';
 
 const Footer = ({ t, menu, logoId = "home", legalInformationId = "mentions-legales", logoSrc, iframeSrc }) => {
   const location = useLocation();
@@ -41,7 +42,16 @@ const Footer = ({ t, menu, logoId = "home", legalInformationId = "mentions-legal
             <h2>{t("footer.title", { returnObjects: true })}</h2>
             <nav className="footer-menu">
               {menu.map((item, index) => (
-                <Link key={index} className="footer-link" to={item.path}>{t(`menu.${item.id}`)}</Link>
+                item.id === 'presse'
+                  ? (
+                    <Link key={index} to={item.path} className="footer-press-link">
+                      <NewspaperIcon className="footer-press-icon" />
+                      {t(`menu.${item.id}`)}
+                    </Link>
+                  )
+                  : (
+                    <Link key={index} className="footer-link" to={item.path}>{t(`menu.${item.id}`)}</Link>
+                  )
               ))}
             </nav>
           </div>

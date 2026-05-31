@@ -46,7 +46,7 @@ const menu = [
   {
     id: "presse",
     path: "/la-presse-en-parle",
-    showInHeader: true,
+    showInHeader: false,
     showInFooter: true,
     subMenu: []
   },
