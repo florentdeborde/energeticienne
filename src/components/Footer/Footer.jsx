@@ -1,11 +1,17 @@
 import './Footer.css';
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { handleLogoNavigation } from "../../utils/navigationUtils";
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 
 const Footer = ({ t, menu, logoId = "home", legalInformationId = "mentions-legales", logoSrc, iframeSrc }) => {
   const location = useLocation();
   const navigate = useNavigate();
+  const { i18n } = useTranslation();
+  const fallbackLang = "fr";
+  const currentLanguage = i18n.language ? i18n.language.split('-')[0] : fallbackLang;
+  const baseMapSrc = iframeSrc[currentLanguage] || iframeSrc[fallbackLang];
+  const mapSrc = baseMapSrc ? `${baseMapSrc}&hl=${currentLanguage}` : "";
 
   const logoItem = menu.find(item => item.id === logoId) || { path: "/" };
 
@@ -60,7 +66,7 @@ const Footer = ({ t, menu, logoId = "home", legalInformationId = "mentions-legal
         {/* Right side */}
         <div className="footer-map">
           {/* Maps */}
-          <iframe title="Location" src={iframeSrc} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Location" src={mapSrc} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
           {/* Address & phone */}
           <div className="address-and-phone">
