@@ -172,8 +172,8 @@
                 ],
                 "date": "2026-05-01",
                 "source": "Le Publicateur Libre",
-                "image": "https://static.actu.fr/uploads/2026/04/1d017dea0ee9631117dea0ee905117v-960x640.jpg",
-                "link": "https://actu.fr/normandie/la-ferte-mace_61168/isabelle-deborde-sest-specialisee-dans-les-soins-energetiques_64212644.html"
+                "sourceLink": "https://actu.fr/normandie/la-ferte-mace_61168/isabelle-deborde-sest-specialisee-dans-les-soins-energetiques_64212644.html",
+                "image": "/images/site/article/article-20260501.jpg"
             }
         ]
     }

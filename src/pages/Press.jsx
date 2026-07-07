@@ -19,9 +19,11 @@ const Press = ({ t }) => {
                 link={article.link}
                 date={article.date}
                 source={article.source}
+                sourceLink={article.sourceLink}
                 horizontal={true}
                 imagePosition={index % 2 === 0 ? 'left' : 'right'}
                 buttonText={pressSection.readMore}
+                zoomable={true}
               />
             </RevealWrapper>
           ))}

@@ -9,30 +9,55 @@ const BlogCard = ({
   link,
   date,
   source,
+  sourceLink,
   horizontal = false,
   imagePosition = "left",
   buttonText,
-  handlePostClick
+  handlePostClick,
+  zoomable = false
 }) => {
   const isExternal = link && (link.startsWith("http") || link.startsWith("//"));
+
+  const openFullImage = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    window.open(image, "_blank", "noopener,noreferrer");
+  };
 
   const renderContent = () => (
     <>
       {image && (
-        <div className="blog-card-image-wrapper">
+        <div
+          className={`blog-card-image-wrapper${zoomable ? " zoomable" : ""}`}
+          onClick={zoomable ? openFullImage : undefined}
+        >
           <img src={image} alt={title || ""} className="blog-card-image" loading="lazy" />
         </div>
       )}
-      
+
       <div className="blog-card-content">
         <div className="blog-card-meta">
-          {source && <span className="blog-card-source">{source}</span>}
+          {source && (
+            sourceLink ? (
+              <a
+                href={sourceLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="blog-card-source"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {source}
+              </a>
+            ) : (
+              <span className="blog-card-source">{source}</span>
+            )
+          )}
           {source && date && <span className="blog-card-meta-separator">•</span>}
           {date && <span className="blog-card-date">{date}</span>}
         </div>
-        
+
         <h3 className="blog-card-title">{title}</h3>
-        
+
         {paragraphs && paragraphs.length > 0 ? (
           <div className="blog-card-paragraphs">
             {paragraphs.map((paragraph, index) => (

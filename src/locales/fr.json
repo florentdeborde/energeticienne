@@ -170,8 +170,8 @@
                     "Installée depuis 2023 à La Ferté-Macé (Orne), Isabelle Deborde, énergéticienne, soulage les maux du corps en soignant les émotions douloureuses."                ],
                 "date": "01/05/2026",
                 "source": "Le Publicateur Libre",
-                "image": "https://static.actu.fr/uploads/2026/04/1d017dea0ee9631117dea0ee905117v-960x640.jpg",
-                "link": "https://actu.fr/normandie/la-ferte-mace_61168/isabelle-deborde-sest-specialisee-dans-les-soins-energetiques_64212644.html"
+                "sourceLink": "https://actu.fr/normandie/la-ferte-mace_61168/isabelle-deborde-sest-specialisee-dans-les-soins-energetiques_64212644.html",
+                "image": "/images/site/article/article-20260501.jpg"
             }
         ]
     }
